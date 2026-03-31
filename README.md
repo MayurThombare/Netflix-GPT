@@ -37,6 +37,15 @@
 - GPT search Feature
 - GPT search Bar
 - (Bonus) Multi langauge feature in our app
-- 
+-  Get GRoQ api key 
+- GROQ Search API Call
+- Fetched getMovieSuggestions from TMDB
+- Created gptslice added data
+- reused Movie List componnet to make movie suggestion container
+- Memoization 
+- Added .env file
+- Adding .env fule to gitignore 
+- Made our site reposnsive 
+
 
 

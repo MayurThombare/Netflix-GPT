@@ -30,14 +30,14 @@ const GptSearchBar = () => {
 
         const tmdbResults = await Promise.all(promiseArray);
         console.log(tmdbResults);
-        dispatch(addGptMovieResults({movieName : movieNames, movieResults: tmdbResults}));
+        dispatch(addGptMovieResults({movieName : movieNames, movieResults: tmdbResults }));
     };
 
     return (
-        <div className="pt-[10%] flex justify-center">
+        <div className="pt-[35%] md:pt-[10%] flex justify-center">
             <form
                 action=""
-                className="w-1/2 bg-black grid grid-cols-12 rounded-lg"
+                className="mx-2 w-full md:w-1/2 bg-black grid grid-cols-12 rounded-lg"
                 onSubmit={(e) => e.preventDefault()}
             >
                 <input

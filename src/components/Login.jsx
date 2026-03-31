@@ -90,6 +90,7 @@ const Login = () => {
       <Header />
       <div className="absolute">
         <img
+          className="h-screen object-cover w-screen w-full"
           src={bg_Image}
           alt=""
         />
@@ -98,7 +99,7 @@ const Login = () => {
       <form
         onSubmit={(e) => e.preventDefault()}
         action=""
-        className="w-3/12 absolute p-12 bg-black/80 text-white my-36 mx-auto right-0 left-0  rounded-lg"
+        className="w-full md:w-3/12 absolute p-12 bg-black/80 text-white my-36 mx-auto right-0 left-0  rounded-lg"
       >
         <h1 className="font-bold text-3xl py-4">
           {isSignIn ? "Sign In" : "Sign UP"}
